@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.section-header {
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    font-size: 125%;
+}
+
+.section p {
+    padding: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .section {
+        width: 33.33%;
+    }
+}
