@@ -1,2 +1,2 @@
 # javierparra07github.io
-Coursera  web prueba
+Proyecto clon de restaurante chino, con algunas funciones en javascript y maquetado web.
